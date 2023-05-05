@@ -2,7 +2,7 @@ from flask import Flask, render_template
 from templates.rev  import rev
 import os
 import subprocess
-import socket
+
 
 app = Flask(__name__ , static_folder='./templates/img')
 
